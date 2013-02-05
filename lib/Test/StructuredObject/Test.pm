@@ -3,7 +3,10 @@ use warnings;
 
 package Test::StructuredObject::Test;
 BEGIN {
-  $Test::StructuredObject::Test::VERSION = '0.01000009';
+  $Test::StructuredObject::Test::AUTHORITY = 'cpan:KENTNL';
+}
+{
+  $Test::StructuredObject::Test::VERSION = '0.01000010';
 }
 
 # ABSTRACT: A L<< C<CodeStub>|Test::StructuredObject::CodeStub >> representing executable test code.
@@ -27,8 +30,8 @@ __PACKAGE__->meta->make_immutable;
 
 1;
 
-
 __END__
+
 =pod
 
 =head1 NAME
@@ -37,7 +40,7 @@ Test::StructuredObject::Test - A L<< C<CodeStub>|Test::StructuredObject::CodeStu
 
 =head1 VERSION
 
-version 0.01000009
+version 0.01000010
 
 =head1 ATTRIBUTES
 
@@ -51,10 +54,9 @@ Kent Fredric <kentnl@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2010 by Kent Fredric <kentnl@cpan.org>.
+This software is copyright (c) 2013 by Kent Fredric <kentnl@cpan.org>.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-

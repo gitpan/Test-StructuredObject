@@ -3,7 +3,10 @@ use warnings;
 
 package Test::StructuredObject;
 BEGIN {
-  $Test::StructuredObject::VERSION = '0.01000009';
+  $Test::StructuredObject::AUTHORITY = 'cpan:KENTNL';
+}
+{
+  $Test::StructuredObject::VERSION = '0.01000010';
 }
 
 # ABSTRACT: Use a structured execution-graph to create a test object which runs your tests smartly.
@@ -54,6 +57,7 @@ sub testgroup($@) {
 1;
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -62,7 +66,7 @@ Test::StructuredObject - Use a structured execution-graph to create a test objec
 
 =head1 VERSION
 
-version 0.01000009
+version 0.01000010
 
 =head1 SYNOPSIS
 
@@ -205,10 +209,9 @@ Kent Fredric <kentnl@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2010 by Kent Fredric <kentnl@cpan.org>.
+This software is copyright (c) 2013 by Kent Fredric <kentnl@cpan.org>.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-

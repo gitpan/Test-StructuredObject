@@ -3,7 +3,10 @@ use warnings;
 
 package Test::StructuredObject::TestSuite;
 BEGIN {
-  $Test::StructuredObject::TestSuite::VERSION = '0.01000009';
+  $Test::StructuredObject::TestSuite::AUTHORITY = 'cpan:KENTNL';
+}
+{
+  $Test::StructuredObject::TestSuite::VERSION = '0.01000010';
 }
 
 # ABSTRACT: A collection of tests in an order waiting to be executed.
@@ -90,8 +93,8 @@ __PACKAGE__->meta->make_immutable;
 
 1;
 
-
 __END__
+
 =pod
 
 =head1 NAME
@@ -100,7 +103,7 @@ Test::StructuredObject::TestSuite - A collection of tests in an order waiting to
 
 =head1 VERSION
 
-version 0.01000009
+version 0.01000010
 
 =head1 METHODS
 
@@ -136,10 +139,9 @@ Kent Fredric <kentnl@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2010 by Kent Fredric <kentnl@cpan.org>.
+This software is copyright (c) 2013 by Kent Fredric <kentnl@cpan.org>.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
